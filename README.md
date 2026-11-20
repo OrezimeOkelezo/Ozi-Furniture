@@ -1,25 +1,25 @@
 # Ozi Furniture
 
-A responsive furniture website for Ozi Furniture, with a product collection, WhatsApp enquiries and direct contact details.
+A responsive furniture and interiors storefront for Ozi Furniture.
 
-## Website features
-- Responsive furniture catalogue with category filters and search
-- Product bag saved in the visitor's browser
-- WhatsApp enquiry flow for custom projects and selected items
-- Direct phone, WhatsApp, email and shop address links
-- Mobile navigation and slide-out bag
+## Included
+- Expanded 24-item concept catalogue across bedroom, living, wardrobes/storage, dining, kitchen, office and décor
+- Responsive editorial layout, category filters and product search
+- Browser-saved enquiry bag and WhatsApp enquiry handoff
+- Direct call, WhatsApp, email and shop address links
+- Custom project enquiry form
+
+## Design references
+The interface direction takes inspiration from the user's saved repositories: Bagisto (e-commerce catalogue patterns), Ant Design (consistent interface components), UI UX Pro Max (design-system thinking), and the saved modern UI/3D references. This project uses its own lightweight HTML, CSS and JavaScript implementation; it does not copy or bundle those projects.
 
 ## Run locally
 Open `index.html` in a browser. No build step is required.
 
 ## Before publishing
-- Replace the illustrative catalogue photography with photographs of Ozi Furniture's actual work.
-- Review product titles and categories so the collection matches current stock and services.
-- Test the WhatsApp, phone and email links on a mobile device.
-- Product imagery is currently loaded from Unsplash and Google Fonts externally, so an internet connection is required for those assets.
+The expanded product names and photos are concept catalogue examples, not a verified stock list. Replace illustrative images with actual Ozi Furniture project photos and confirm each product offering. Product images and fonts load from external services and require internet access.
 
 ## Enquiries
-The project and bag buttons open WhatsApp with a prepared message. The visitor must press Send in WhatsApp. This website does not process card payments or store orders in an online admin system. Add a secure backend and payment provider separately if online payment and order management are required.
+Product bag and custom project forms prepare WhatsApp messages. The customer must press Send in WhatsApp. The website does not process card payments or provide a server-side order dashboard.
 
-## Deploy on Netlify
-Import this GitHub repository in Netlify and set the publish directory to the repository root. No build command is needed.
+## Netlify
+Import this repository in Netlify and set the publish directory to the repository root. No build command is needed.
